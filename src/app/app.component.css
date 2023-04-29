@@ -1,0 +1,43 @@
+
+.wrapper{
+  font-family: Arial;
+  background: beige;
+  /*max-width: 600px;*/
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.top{
+  /*max-width: 600px;*/
+  /*background: green;*/
+}
+
+.solution{
+  text-align: center;
+}
+
+.btn{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn{
+  padding: .75rem;
+  background: green;
+  color: white;
+  border: none;
+}
+
+.btn[disabled]{
+  padding: .75rem;
+  background: #f58787;
+  color: white;
+  border: none;
+
+}
+
+

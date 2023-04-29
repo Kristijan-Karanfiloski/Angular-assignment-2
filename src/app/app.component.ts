@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'assignmet2-project';
+  name:''
+  disabled:boolean=true
+
+
+
+  resetButton(){
+    this.name=''
+    this.disabled=true
+  }
+
+
+
+
 }
